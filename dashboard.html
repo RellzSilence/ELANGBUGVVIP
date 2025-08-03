@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - Elang Bug</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard">
+    <h1>Elang Bug</h1>
+    <div class="button-row">
+      <button onclick="sendBug('/Fcinvis')">Invisible</button>
+      <button onclick="sendBug('/Invisdelay')">Delay</button>
+      <button onclick="sendBug('/Combo')">Blank</button>
+      <button onclick="sendBug('/Crash')">Elang Rantai</button>
+      <button onclick="sendBug('/Iosinvis')">iOS</button>
+    </div>
+    <button class="send-btn" onclick="sendBug()">Send Bug</button>
+    <p id="status"></p>
+    <div class="bottom-buttons">
+      <a href="#">Elang Attack</a>
+      <a href="#">Owner</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
